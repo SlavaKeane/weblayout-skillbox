@@ -1,0 +1,865 @@
+@media screen and (max-width: 1450px) {
+
+  .container {
+    padding: 0px 100px;
+    margin-bottom: 40px;
+  }
+
+  .header {
+    padding: 32px 0 26px 0;
+  }
+
+  .header-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 0px;
+  }
+
+  .header__search {
+    right: 100px;
+  }
+
+  .header__logo {
+    margin-bottom: 25px;
+  }
+
+  .header__list {
+    width: 100%;
+    margin: 0;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+
+  .catalog__item {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  .hero__content {
+    padding: 0;
+  }
+
+  .hero__title {
+    padding-top: 100px;
+  }
+
+  .hero__descr {
+    margin-bottom: 134px;
+    max-width: 655px;
+  }
+
+  .hero__btn {
+    margin-bottom: 101px;
+  }
+
+  .about {
+    padding: 80px 0 71px;
+  }
+
+  .gallery__checkbox {
+    margin-bottom: 14px;
+  }
+
+  .catalog__header {
+    margin-bottom: 2px;
+
+  }
+
+  .catalog__img {
+    width: 100%;
+    margin-bottom: 31px;
+  }
+
+  .catalog__item-descr {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .catalog__sign {
+    margin-bottom: 7px;
+  }
+
+  .events__items {
+    gap: 27px;
+    --gap: 27px;
+  }
+
+  .events__card {
+    padding-left: 34px;
+    height: 483px;
+  }
+
+  .events__text {
+    max-height: 410px;
+  }
+
+  .contacts__descr {
+    padding-bottom: 29px;
+  }
+
+  .contacts__title {
+    margin-bottom: 13px;
+  }
+
+  .contacts__adress {
+    font-size: 14px;
+  }
+
+  .contacts__form {
+    max-width: 100%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin: 0px;
+  }
+
+  .contacts__social {
+    margin-bottom: 41px;
+  }
+
+  .contacts__part {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding-top: 45px;
+  }
+
+  .social__item-vk, .social__item-ok {
+    width: 60px;
+    height: 60px;
+  }
+
+  .footer__logo {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+
+  .footer {
+    padding: 40px 0;
+  }
+
+}
+
+@media screen and (max-width: 1150px) {
+
+  .container {
+    padding: 0px 50px;
+    margin-bottom: 0px;
+  }
+
+  .header__logo {
+    width: 188px;
+  }
+
+  .header__search {
+    width: 29px;
+    right: 50px;
+    margin-right: 0px;
+  }
+
+  .header__nav {
+    width: 101%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .section__title, .about__title, .gallery__title, .catalog__title, .events__title, .projects__title {
+    padding-top: 0;
+  }
+
+  .hero {
+    background-image: url(../img/birmingham-museums.jpg);
+    background-size: 100% 100%;
+  }
+
+  .gallery {
+    padding: 80px 0 0px;
+  }
+
+  .gallery__title {
+    padding: 1px 0 8px;
+  }
+
+  .gallery__checkbox:not(:last-child) {
+    margin-bottom: 13px;
+  }
+
+  .gallery__item {
+    margin-bottom: 77px;
+  }
+
+  .gallery__menu-block {
+    margin-bottom: 28px;
+  }
+
+  .catalog__img {
+    margin-right: 0px;
+  }
+
+  .events__items {
+    gap: 25px;
+    --gap: 25px;
+  }
+
+  .events__card {
+    height: 425px;
+  }
+
+  .events__subtitle {
+    display: block;
+    text-align: end;
+    padding-right: 15px;
+    margin-bottom: 5px;
+  }
+
+  .events__linc {
+    padding: 6px 8px 13px 0;
+  }
+
+  .events__linc::after {
+    bottom: 9px;
+  }
+
+  .events__item-title {
+    margin-top: 4px;
+  }
+
+  .projects__descr {
+    margin-bottom: 23px;
+  }
+
+  .projects__item-linc {
+    padding-bottom: 78px;
+  }
+
+  .projects__item:not(:last-child) {
+    margin-right: 26px;
+  }
+
+  .contacts {
+    padding: 0;
+  }
+
+  .contacts__descr {
+    padding-bottom: 31px;
+  }
+
+  .contacts__title {
+    margin-bottom: 11px;
+  }
+
+  .contacts__form {
+    margin-bottom: 27px;
+  }
+
+  .contacts__form-item:not(:last-child) {
+    margin-right: 19px;
+  }
+
+  .contacts__btn {
+    width: 299px;
+  }
+
+  .contacts__social {
+    margin-bottom: 41px;
+  }
+
+  }
+
+@media screen and (max-width: 860px) {
+  .container {
+    padding: 0px 50px;
+  }
+
+  .header__search {
+    top: 2px;
+    right: 51px;
+  }
+
+  .header__link {
+    padding: 0 9px 2px 3px;
+  }
+
+  .hero {
+    background-image: url(../img/birmingham-museums.jpg);
+  }
+
+  .hero__title {
+    padding-top: 87px;
+  }
+
+  .hero__descr {
+    margin-bottom: 132px;
+    max-width: 550px;
+  }
+
+  .hero__btn {
+    margin-bottom: 86px;
+  }
+
+  .gallery__part {
+    gap: 34px;
+  }
+
+  .gallery__checkbox {
+    margin-bottom: 13px;
+  }
+
+  .gallery__checkbox:last-child {
+    margin-bottom: 11px;
+  }
+
+  .gallery__item {
+    margin-bottom: 76px;
+  }
+
+  .gallery__menu-block {
+    margin-bottom: 25px;
+  }
+
+  .catalog__descr, .projects__descr {
+    margin-bottom: 41px;
+  }
+
+  .catalog__img {
+    margin-bottom: 32px;
+  }
+
+  .catalog__header {
+    margin-bottom: 1px;
+  }
+
+  .catalog__sign {
+    line-height: 30px;
+    margin-bottom: 0;
+  }
+
+  .events__items {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 29px;
+  }
+
+  .events__pict {
+    margin-bottom: 10px;
+  }
+
+  .events__item {
+    width: 100%;
+    max-width: 800px;
+  }
+
+  .events__img {
+    width: 800px;
+  }
+
+  .events__linc {
+    padding: 6px 8px 11px 0;
+  }
+
+  .events__linc::after {
+    bottom: 6px;
+  }
+
+  .events__card {
+    max-width: 716px;
+    min-height: 270px;
+    height: 271px;
+    padding-left: 32px;
+  }
+
+  .events__linc::after {
+    bottom: 8px;
+  }
+
+  .events__item-title {
+    max-width: 493px;
+    margin-bottom: 15px;
+  }
+
+  .events__subtitle {
+    padding-right: 16px;
+  }
+
+  .projects__descr {
+    margin-bottom: 32px;
+  }
+
+  .projects__subtitle {
+    margin-bottom: 28px;
+  }
+
+  .projects__items {
+    margin-bottom: 76px;
+  }
+
+  .projects__item:not(:last-child) {
+    margin-right: 34px;
+  }
+
+  .projects__item-logo {
+    height: 126px;
+  }
+
+  .projects__item-linc {
+    padding-bottom: 0;
+  }
+
+  .contacts__form {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%;
+    -webkit-column-gap: 20px;
+       -moz-column-gap: 20px;
+            column-gap: 20px;
+  }
+  .contacts__descr {
+    padding-bottom: 31px;
+  }
+
+  .contacts__title {
+    margin-bottom: 12px;
+  }
+
+  .contacts__form-item {
+    margin-bottom: 12px;
+    padding: 14px 21px;
+  }
+
+  .contacts__social {
+    margin-top: 15px;
+    margin-bottom: 40px;
+  }
+
+  .contacts__form-item:not(:last-child) {
+    width: calc(100% / 2 - 54px);
+    margin-right: 0px;
+  }
+
+  .contacts__btn {
+    width: 270px;
+    padding: 13px 21px;
+  }
+
+  .contacts__form {
+    margin-bottom: 1px;
+  }
+
+}
+
+@media screen and (max-width: 640px) {
+  .container {
+    padding: 0px 30px;
+  }
+
+  .header__search {
+    height: 43px;
+    top: 0;
+  }
+
+  .header__link {
+    padding: 0 9px 2px 6px;
+  }
+
+  .hero__content {
+    text-align: center;
+  }
+
+  .hero__descr {
+    width: 86%;
+    margin-bottom: 39px;
+    padding: 0 15px 0 20px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.34px;
+  }
+
+  .hero__title {
+    width: 90%;
+    margin-bottom: 11px;
+    padding-top: 50px;
+    padding-left: 14px;
+    font-size: 32px;
+    line-height: 28px;
+  }
+
+  .hero__btn {
+    width: 163px;
+    margin-bottom: 50px;
+    font-size: 12px;
+    padding: 7px 20px;
+  }
+
+  .header__link {
+    font-size: 12px;
+  }
+
+  .header__logo {
+    width: 130px;
+  }
+
+  .header__search {
+    width: 19px;
+    right: 15px;
+  }
+
+  .section__title, .about__title, .gallery__title, .catalog__title, .events__title, .projects__title {
+    margin-bottom: 0px;
+    font-size: 28px;
+  }
+
+  .section__descr, .about__descr, .catalog__descr, .projects__descr {
+    width: 90%;
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .about {
+    padding: 39px 0 41px;
+  }
+
+  .gallery {
+    padding: 38px 0 0px;
+  }
+
+  .gallery__items {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .gallery__title {
+    margin-bottom: 8px;
+  }
+
+  .gallery__menu-block {
+    margin-bottom: 26px;
+  }
+
+  .gallery__part:first-child {
+    margin-right: auto;
+  }
+
+  .gallery__part {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 0px;
+  }
+
+  .projects__items {
+    margin-bottom: 30px;
+  }
+
+  .catalog {
+    padding: 39px 0;
+  }
+
+  .catalog__descr {
+    margin-bottom: 30px;
+  }
+
+  .catalog__img {
+    margin-bottom: 20px;
+  }
+
+  .catalog__sign {
+    line-height: 35px;
+    margin-bottom: 3px;
+}
+
+  .contacts__form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .events {
+    padding-bottom: 39px;
+  }
+
+  .events__pict {
+    margin-bottom: 15px;
+  }
+
+  .events__subtitle {
+    margin-bottom: 11px;
+  }
+
+  .events__card {
+    padding-bottom: 40px;
+  }
+
+  .events__linc::after {
+  bottom: 10px;
+  }
+
+  .projects__descr {
+    margin-bottom: 20px;
+  }
+
+  .contacts__form-item:not(:last-child) {
+    width: 80%;
+  }
+
+  .contacts__btn {
+    width: 228px;
+    font-size: 12px;
+    line-height: 16.34px;
+  }
+
+  .contacts__part {
+    padding-top: 9px;
+  }
+
+  .contacts__form-item {
+    padding: 10px 37px 10px 22px;
+  }
+
+}
+
+@media screen and (max-width: 420px) {
+  .container {
+    padding: 0px 15px;
+  }
+
+  .header {
+    padding: 5px 0 11px 0;
+  }
+
+  .header__nav {
+    width: 104%;
+    overflow: hidden;
+  }
+
+  .header__list {
+    width: 146%;
+    overflow: hidden;
+  }
+
+  .header__logo {
+    width: 97px;
+    margin-bottom: 0px;
+  }
+
+  .header__search {
+    height: 43px;
+  }
+
+  .section__title, .about__title, .gallery__title, .catalog__title, .events__title, .projects__title {
+    padding-bottom: 1px;
+    line-height: 60px;
+  }
+
+  .section__descr, .about__descr, .catalog__descr, .projects__descr {
+    width: 96%;
+    font-size: 16px;
+    line-height: 32px;
+  }
+
+  .about__descr {
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .gallery__title {
+    margin-left: 0%;
+  }
+
+  .gallery__items {
+    padding-bottom: 20px;
+  }
+
+  .gallery__part:first-child {
+    margin-left: 0%;
+  }
+
+  .gallery__item {
+    margin-bottom: 27px;
+  }
+
+  .gallery__menu-block {
+    margin-bottom: 26px;
+  }
+
+  .ggallery__checkbox {
+    margin-bottom: 14px;
+  }
+
+  .gallery__text {
+    padding-left: 24px;
+  }
+
+  .hero {
+    background-image: url(../img/birmingham-museums.jpg);
+  }
+
+  .catalog__header {
+    width: 99%;
+    margin-bottom: -2px;
+    line-height: 32.68px;
+  }
+
+  .catalog__item:last-child> .catalog__item-descr> .catalog__text {
+    width: 99%;
+  }
+
+  .catalog__item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  .events__item {
+    width: 99.4%;
+  }
+
+  .events__items {
+    gap: 20px;
+  }
+
+  .events__card {
+    max-width: 300px;
+    height: 424px;
+    padding-left: 22px;
+    padding-right: 2px;
+  }
+
+  .events__item-title {
+    width: 99%;
+    margin-bottom: 5px;
+  }
+
+  .events__item__subtitle {
+    padding-top: 2px;
+    line-height: 16px;
+  }
+
+  .events__dscr {
+    width: 82.85%;
+  }
+
+  .events__linc {
+    padding: 6px 5px 13px 6px;
+  }
+
+  .events__linc::after {
+    bottom: 10px;
+    left: 8px;
+    width: 86%;
+  }
+
+  .projects__subtitle {
+    margin-bottom: 12px;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.3px;
+  }
+
+  .projects__items {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .projects__item {
+    margin-bottom: 8px;
+  }
+
+  .projects__item:not(:last-child) {
+    margin-right: 0px;
+  }
+
+  .projects__item-logo {
+    width: 290px;
+    height: 100px;
+  }
+
+  .contacts__container {
+    border: none;
+  }
+
+  .contacts__title {
+    font-size: 18px;
+    margin-bottom: 7px;
+  }
+
+  .contacts__descr {
+    padding-bottom: 21px;
+  }
+
+  .contacts__social {
+    margin-bottom: 47px;
+    margin-top: 8px;
+  }
+
+  .contacts__social-descr {
+    margin-bottom: 40px;
+    font-size: 18px;
+    letter-spacing: -0.45px;
+  }
+
+  .contacts__form-item:not(:last-child) {
+    width: 79%;
+  }
+
+  .social__item-vk, .social__item-ok, .contacts__social-whatsapp, .contacts__social-telegram {
+    width: 50px;
+    height: 50px;
+  }
+
+  .footer__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .contacts__btn {
+    width: 64px;
+    height: 16px;
+    margin-bottom: 10px;
+    font-size: 0px;
+  }
+
+  .contacts__btn::before {
+    content: "Ð—Ð°ÐºÐ°Ð·Ð°Ñ‚ÑŒ ";
+    font-size: 12px;
+  }
+
+  .contacts__form-item:not(:last-child) {
+    margin-bottom: 19px;
+  }
+
+  .footer {
+    padding: 19.5px 0;
+  }
+
+  .footer__logo {
+    width: 96.8px;
+  }
+
+  .footer__social {
+    margin-bottom: 18px;
+  }
+
+}
